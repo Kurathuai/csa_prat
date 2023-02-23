@@ -1,0 +1,7 @@
+INP
+STA num
+LOOP:ISZ num
+     OUT
+     BUN LOOP
+     HLT
+num: .data 1 0
